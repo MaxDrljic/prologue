@@ -1,5 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 /*
 	Prologue by HTML5 UP
@@ -1552,8 +1553,8 @@
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 15pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -1571,7 +1572,6 @@
 		}
 
 	input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -1579,6 +1579,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Source Sans Pro' sans-serif;
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
@@ -1594,7 +1595,8 @@
 		}
 
 	h2 {
-		font-size: 2em;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 2.3em;
 		letter-spacing: -1px;
 	}
 
@@ -1694,6 +1696,14 @@
 			margin-bottom: 0;
 		}
 
+		.dividerLine {
+			
+			width: 50%;
+			border-bottom: 1px solid white;
+			margin: 25px auto;
+			margin-top: 30px;
+		}
+
 /* Image */
 
 	.image {
@@ -1726,7 +1736,7 @@
 			display: block;
 			width: 50%;
 			margin: 0 auto;
-			padding-bottom: 40px;
+			padding-bottom: 50px;
 		}
 
 		.image.left {
@@ -1782,6 +1792,10 @@
 		}
 
 /* Form */
+
+	.contactText {
+		margin-bottom: 3em;
+	}
 
 	form label {
 		display: block;
@@ -2121,11 +2135,12 @@
 
 		#footer .copyright {
 			cursor: default;
-			margin: 0;
+			margin: 0 20px -20px 0;
 		}
 
 			#footer .copyright li {
-				display: inline-block;
+				display: block;
+				text-align: right;
 				line-height: 1em;
 				border-left: solid 1px rgba(128, 128, 128, 0.35);
 				padding: 0 0 0 0.5em;
